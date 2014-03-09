@@ -1,0 +1,3 @@
+[submodule "vendor/remindcloud/RemindCloud"]
+	path = vendor/remindcloud/RemindCloud
+	url = https://github.com/remindcloud/RemindCloud.git
