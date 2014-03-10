@@ -12,5 +12,6 @@ return array(
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
     'Bugsnag_' => array($vendorDir . '/bugsnag/bugsnag/src'),
-    'RemindCloud' => array($vendorDir . '/remindcloud')
+    'RemindCloud' => array($vendorDir . '/remindcloud'),
+    'File' => array($vendorDir . '/remindcloud')
 );

@@ -1,5 +1,56 @@
 [
     {
+        "name": "bugsnag/bugsnag",
+        "version": "v2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bugsnag/bugsnag-php.git",
+            "reference": "6dc9e099f5e23db1c56a2864f7e1466b5b80835c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/6dc9e099f5e23db1c56a2864f7e1466b5b80835c",
+            "reference": "6dc9e099f5e23db1c56a2864f7e1466b5b80835c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "kherge/box": "~2.0",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-03-07 01:44:46",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Bugsnag_": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Smith",
+                "email": "notifiers@bugsnag.com",
+                "homepage": "https://bugsnag.com"
+            }
+        ],
+        "description": "Official Bugsnag notifier for PHP applications.",
+        "homepage": "https://github.com/bugsnag/bugsnag-php",
+        "keywords": [
+            "bugsnag",
+            "errors",
+            "exceptions",
+            "logging",
+            "tracking"
+        ]
+    },
+    {
         "name": "symfony/event-dispatcher",
         "version": "v2.4.2",
         "version_normalized": "2.4.2.0",
@@ -192,56 +243,5 @@
             }
         ],
         "description": "The Mailgun SDK provides methods for all API functions."
-    },
-    {
-        "name": "bugsnag/bugsnag",
-        "version": "v2.2.0",
-        "version_normalized": "2.2.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/bugsnag/bugsnag-php.git",
-            "reference": "6dc9e099f5e23db1c56a2864f7e1466b5b80835c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/6dc9e099f5e23db1c56a2864f7e1466b5b80835c",
-            "reference": "6dc9e099f5e23db1c56a2864f7e1466b5b80835c",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "require-dev": {
-            "kherge/box": "~2.0",
-            "phpunit/phpunit": "3.7.*"
-        },
-        "time": "2014-03-07 01:44:46",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Bugsnag_": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "James Smith",
-                "email": "notifiers@bugsnag.com",
-                "homepage": "https://bugsnag.com"
-            }
-        ],
-        "description": "Official Bugsnag notifier for PHP applications.",
-        "homepage": "https://github.com/bugsnag/bugsnag-php",
-        "keywords": [
-            "bugsnag",
-            "errors",
-            "exceptions",
-            "logging",
-            "tracking"
-        ]
     }
 ]
