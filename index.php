@@ -6,7 +6,7 @@ use Mailgun\Mailgun,
     RemindCloud\Events,
     RemindCloud\Message,
     RemindCloud\Db,
-    RemindCloud\Settings,
+    //RemindCloud\Settings,
     File\Upload;
 
 $bugsnag = new Bugsnag_Client("b8e2d7e0c08ef54e3473b459670a518e");
